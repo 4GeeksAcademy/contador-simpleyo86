@@ -7,10 +7,9 @@ const SecondsCounter = (props) => {
     const [counter, setCounter] = useState("00");
 
     return (  
-        <div className="bg-black text-white justify-content-center d-flex p-3 m-3 border border- rounded-3 border border-danger-subtle">
+        <div className="bg-pink text-white justify-content-center d-flex p-3 m-3 border border- rounded-3 border border-danger-subtle">
         <div className="bg-black text-white justify-content-center d-flex p-3 m-2 border border-2 border border-danger-subtle rounded-3"> 
-        <img src="src/img/reloj-rosa.png" style={{with:"50px", height:"50px"}}></img> </div>
-        {/*icono importado desde <FontAwesomeIcon icon={faClock} /></div>*/}
+        <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/23f0@2x.png" style={{with:"50px", height:"50px"}}></img> </div>
         <div className="bg-black fs-1 text-white align-items-center justify-content-center d-flex p-3 m-2 border border-2 border border-danger-subtle rounded-3">{props.secondSeis % 10}</div>
         <div className="bg-black fs-1 text-white align-items-center justify-content-center d-flex p-3 m-2 border border-2 border border-danger-subtle rounded-3">{props.secondCinco % 10}</div>
         <div className="bg-black fs-1 text-white align-items-center justify-content-center d-flex p-3 m-2 border border-2 border border-danger-subtle rounded-3">{props.secondCuatro % 10}</div>
